@@ -1708,6 +1708,10 @@ html {
     nav:not(.footernav) li:hover {
         transform: none;
     }
+
+    .project-view-label {
+        text-align: center;
+    }
 }
 
 @media (min-width: 1101px) {
