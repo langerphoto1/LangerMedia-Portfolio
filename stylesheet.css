@@ -1446,6 +1446,12 @@ html {
 
 
 @media (max-width: 900px) {
+    body {
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
     .lightbox-navigation {
         width: 2.25rem;
         height: 2.25rem;
