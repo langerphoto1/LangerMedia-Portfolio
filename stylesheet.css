@@ -56,13 +56,16 @@ a               { text-decoration: none; }
 html, body      { height: 100%; }
 body            { font-family: 'Montserrat', sans-serif; 
                   background: var(--background);
-                  background-image: url(Graphic-Design-Portfolio/Main-BG.jpg);
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  background-attachment: fixed;
                   min-height: 100vh;
                   display: flex;
-                  flex-direction: column; }
+                  flex-direction: column;
+                  isolation: isolate; }
+body::before    { content: '';
+                  position: fixed;
+                  inset: 0;
+                  z-index: -1;
+                  pointer-events: none;
+                  background: url(Graphic-Design-Portfolio/Main-BG.jpg) center / cover no-repeat; }
 main            { grid-area: main;
                   padding-top: 1px;
                   padding-right: 20px;
