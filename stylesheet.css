@@ -1164,6 +1164,15 @@ html {
         grid-template-columns: 1fr;
     }
 
+    .horizon-row-08 {
+        aspect-ratio: auto;
+        grid-template-rows: auto;
+    }
+
+    .horizon-row-09 {
+        aspect-ratio: auto;
+    }
+
     .horizon-span-two,
     .horizon-span-two-rows,
     .horizon-row-08 figure:nth-child(2),
@@ -1176,11 +1185,24 @@ html {
         aspect-ratio: auto;
     }
 
+    .horizon-row-08 figure:nth-child(2),
     .horizon-row-08 figure:nth-child(3),
+    .horizon-row-08 figure:nth-child(2) img,
     .horizon-row-08 figure:nth-child(3) img {
         height: auto;
     }
 
+    .horizon-row-08 figure,
+    .horizon-row-09 figure {
+        aspect-ratio: auto;
+    }
+
+    .horizon-row-08 img,
+    .horizon-row-09 img {
+        height: auto;
+    }
+
+    .horizon-row-08 figure:nth-child(2) img,
     .horizon-row-08 figure:nth-child(3) img {
         object-fit: contain;
     }
