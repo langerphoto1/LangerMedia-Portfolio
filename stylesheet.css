@@ -1175,6 +1175,15 @@ html {
     .horizon-row-07 figure {
         aspect-ratio: auto;
     }
+
+    .horizon-row-08 figure:nth-child(3),
+    .horizon-row-08 figure:nth-child(3) img {
+        height: auto;
+    }
+
+    .horizon-row-08 figure:nth-child(3) img {
+        object-fit: contain;
+    }
 }
 
 /* Horizon Coffee case study */
